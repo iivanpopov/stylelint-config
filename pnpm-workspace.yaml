@@ -1,2 +1,2 @@
 allowBuilds:
-  simple-git-hooks: true
+  lefthook: true

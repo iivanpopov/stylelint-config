@@ -1,18 +1,12 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "lib": ["ESNext"],
     "moduleDetection": "force",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "types": ["bun"],
-    "strict": true,
-    "noImplicitAny": true,
-    "noEmit": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "skipLibCheck": true
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true
   }
 }

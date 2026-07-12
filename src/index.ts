@@ -2,6 +2,7 @@ import type { Config } from 'stylelint'
 
 export function stylelint(config: Config = {}): Config {
   return {
+    ...config,
     extends: [
       'stylelint-config-standard',
       'stylelint-config-recommended',

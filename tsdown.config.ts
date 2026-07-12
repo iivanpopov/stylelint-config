@@ -1,5 +1,5 @@
 import { defineConfig } from 'tsdown'
 
 export default defineConfig({
-  format: ['esm'],
+  dts: { oxc: true },
 })
